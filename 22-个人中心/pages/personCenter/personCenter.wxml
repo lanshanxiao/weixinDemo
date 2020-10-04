@@ -1,0 +1,56 @@
+<view class='container'>
+	<view class='page'>
+		<form bindsubmit='regFormSubmit' bindreset='regFormReset'>
+			<view class='area'>
+				<label class='model'>
+					<text>name:</text>
+					<input class='input' bindblur='inputName'></input>
+				</label>
+				<label class='model'>
+					<text>password:</text>
+					<input class='input' password bindblur='inputPassword'></input>
+				</label>
+				<label class='model'>
+					<text>sex:</text>
+					<radio-group class='control-center' bindchange='radioGender'>
+						<radio value='1' class='check-item' checked>male</radio>
+						<radio value='0' class='check-item'>female</radio>
+					</radio-group>
+				</label>
+				<label class='model'>
+					<text>hobby:</text>
+					<checkbox-group class='control-center' bindchange='checkboxHobby'>
+						<checkbox value='toy' class='check-item' checked>toy</checkbox>
+						<checkbox class='check-item' value='book'>book</checkbox>
+						<checkbox class='check-item' value='game'>game</checkbox>
+						<checkbox class='check-item' value='run'>run</checkbox>
+						<checkbox class='check-item' value='basketball'>basketball</checkbox>
+						<checkbox class='check-item' value='football'>football</checkbox>
+					</checkbox-group>
+				</label>
+				<label class='model'>
+					<text>birthday:</text>
+					<picker mode='date' class='margin-20' bindchange='pickerBirthday'>
+						<view>[please choose birthday]</view>
+					</picker>
+				</label>
+				<label class='model'>
+					<text>study years:</text>
+					<slider step='1' min='1' max='50' class='padding-20 w-50' show-value bindchange='sliderStudyYear'></slider>
+				</label>
+				<label class='model'>
+					<text>isMember:</text>
+					<switch class='padding-20 w-50' bindchange='switchIsMember'></switch>
+				</label>
+				<label class='model'>
+					<text>agreement:</text>
+					<textarea class='textarea w-50 margin-20 padding-20'>this is personRes. please read it first.</textarea>
+				</label>
+			</view>
+			<view>
+				<button type='primary' form-type='submit'>提交</button>
+				<button type='warn' form-type='reset'>重置</button>
+			</view>
+		</form>
+	</view>
+</view>

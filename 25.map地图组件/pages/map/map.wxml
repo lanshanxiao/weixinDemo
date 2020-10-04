@@ -1,0 +1,1 @@
+<map id='mymap' longitude='114.40198' latitude='36.11642' scale='16' control="{{controls}}" polyline='{{polyline}}' markers='{{markers}}' style='width:100%;height:600rpx;'></map>

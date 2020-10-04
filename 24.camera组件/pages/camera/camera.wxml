@@ -1,0 +1,5 @@
+<camera class='camera-cls' device-position="front" flash='off'>
+  <cover-view class='main-tips'>拍照</cover-view>
+  <cover-image class='verifycode-cover' src='/images/rx.jpg'></cover-image>
+  <cover-image class='red-point' src='/images/hd.png' bindtap='photograph'></cover-image>
+</camera>

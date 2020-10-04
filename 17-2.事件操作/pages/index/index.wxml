@@ -1,0 +1,18 @@
+<view>
+	<view class="nav">
+		<scroll-view class="nav-scroll" scroll-x>
+			<view class="nav-item">
+				<block wx:for="{{navArr}}" wx:key="index">
+					<navigator url='' class="{{classArr[index]}}" bindtap="clickNav" data-index="{{index}}">{{item}}</navigator>
+				</block>
+			</view>
+		</scroll-view>
+	</view>
+	<view class="swiper" style="height:{{swiperRPXHeight}}rpx">
+		<swiper current="{{currentTab}}">
+			<swiper-item wx:for="{{swiperArr}}" wx:key="index">
+				{{item}}
+			</swiper-item>
+		</swiper>
+	</view>
+</view>

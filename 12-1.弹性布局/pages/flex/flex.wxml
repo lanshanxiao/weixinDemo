@@ -1,0 +1,81 @@
+<!-- 导航栏 -->
+<view class="outer-view">
+	<view class="inner-view">
+		<image src='/images/t1.png'>
+		</image>
+		<view class="inner-fnt">秒杀</view>
+	</view>
+	<view class="inner-view">
+		<image src='/images/t1.png'>
+		</image>
+		<view class="inner-fnt">秒杀</view>
+	</view>
+	<view class="inner-view">
+		<image src='/images/t1.png'>
+		</image>
+		<view class="inner-fnt">秒杀</view>
+	</view>
+	<view class="inner-view">
+		<image src='/images/t1.png'>
+		</image>
+		<view class="inner-fnt">秒杀</view>
+	</view>
+	<view class="inner-view">
+		<image src='/images/t1.png'>
+		</image>
+		<view class="inner-fnt">秒杀</view>
+	</view>
+</view>
+
+<!-- 动态导航栏 -->
+<view>
+	<scroll-view scroll-x>
+		<view class="scroll-view">
+			<view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+			<view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+			<view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+			<view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+			<view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+			<view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+      <view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+      <view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+      <view class="inner-view margin-20">
+				<image src='/images/u1.png'>
+				</image>
+				<view class="inner-fnt">秒杀</view>
+			</view>
+		</view>
+	</scroll-view>
+</view>

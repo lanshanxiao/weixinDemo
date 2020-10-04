@@ -1,0 +1,8 @@
+<button bindtap='requestOption'>数据请求</button>
+<button bindtap='requestAbort'>请求终止</button>
+<button bindtap='downloadOption'>下载</button>
+<progress percent='{{per}}' show-info></progress>
+<view class='downloadImg'>
+  <image src='{{imagePath}}'></image>
+</view>
+<button bindtap='downloadTask'>下载终止</button>
