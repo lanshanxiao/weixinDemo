@@ -6,3 +6,5 @@
   <image src='{{imagePath}}'></image>
 </view>
 <button bindtap='downloadTask'>下载终止</button>
+
+<button bindtap='uploadOption'>下载终止</button>
